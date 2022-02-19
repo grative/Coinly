@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		36F3AB4927C1882800AEDF6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3AB4827C1882800AEDF6E /* AppDelegate.swift */; };
 		36F3AB4B27C1882800AEDF6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3AB4A27C1882800AEDF6E /* SceneDelegate.swift */; };
-		36F3AB4D27C1882800AEDF6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3AB4C27C1882800AEDF6E /* ViewController.swift */; };
+		36F3AB4D27C1882800AEDF6E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3AB4C27C1882800AEDF6E /* MainViewController.swift */; };
 		36F3AB5027C1882800AEDF6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F3AB4E27C1882800AEDF6E /* Main.storyboard */; };
 		36F3AB5227C1882A00AEDF6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F3AB5127C1882A00AEDF6E /* Assets.xcassets */; };
 		36F3AB5527C1882A00AEDF6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F3AB5327C1882A00AEDF6E /* LaunchScreen.storyboard */; };
+		36F3AB5D27C18D8E00AEDF6E /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3AB5C27C18D8E00AEDF6E /* CryptoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36F3AB4527C1882800AEDF6E /* Coinly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coinly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F3AB4827C1882800AEDF6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36F3AB4A27C1882800AEDF6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		36F3AB4C27C1882800AEDF6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36F3AB4C27C1882800AEDF6E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		36F3AB4F27C1882800AEDF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36F3AB5127C1882A00AEDF6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36F3AB5427C1882A00AEDF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36F3AB5627C1882B00AEDF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F3AB5C27C18D8E00AEDF6E /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,32 @@
 		36F3AB4727C1882800AEDF6E /* Coinly */ = {
 			isa = PBXGroup;
 			children = (
+				36F3AB5F27C18D9C00AEDF6E /* View */,
+				36F3AB5E27C18D9400AEDF6E /* ViewModel */,
+				36F3AB4C27C1882800AEDF6E /* MainViewController.swift */,
+				36F3AB5C27C18D8E00AEDF6E /* CryptoTableViewCell.swift */,
 				36F3AB4827C1882800AEDF6E /* AppDelegate.swift */,
 				36F3AB4A27C1882800AEDF6E /* SceneDelegate.swift */,
-				36F3AB4C27C1882800AEDF6E /* ViewController.swift */,
 				36F3AB4E27C1882800AEDF6E /* Main.storyboard */,
 				36F3AB5127C1882A00AEDF6E /* Assets.xcassets */,
 				36F3AB5327C1882A00AEDF6E /* LaunchScreen.storyboard */,
 				36F3AB5627C1882B00AEDF6E /* Info.plist */,
 			);
 			path = Coinly;
+			sourceTree = "<group>";
+		};
+		36F3AB5E27C18D9400AEDF6E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		36F3AB5F27C18D9C00AEDF6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36F3AB4D27C1882800AEDF6E /* ViewController.swift in Sources */,
+				36F3AB5D27C18D8E00AEDF6E /* CryptoTableViewCell.swift in Sources */,
+				36F3AB4D27C1882800AEDF6E /* MainViewController.swift in Sources */,
 				36F3AB4927C1882800AEDF6E /* AppDelegate.swift in Sources */,
 				36F3AB4B27C1882800AEDF6E /* SceneDelegate.swift in Sources */,
 			);
