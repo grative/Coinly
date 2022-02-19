@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  Coinly
-//
-//  Created by Eren Yürekli on 19.02.2022.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
